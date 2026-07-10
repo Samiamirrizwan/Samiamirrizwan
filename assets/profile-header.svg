@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sami Amir Rizwan profile banner</title>
+  <desc id="desc">WordPress and full-stack developer, UI/UX designer, SEO-focused builder, and video editor based in Karachi, Pakistan.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="52%" stop-color="#0b1730"/>
+      <stop offset="100%" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#15233d"/>
+      <stop offset="100%" stop-color="#0d1728"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#7dd3fc" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <clipPath id="round">
+      <rect width="1200" height="360" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="360" fill="url(#background)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+
+    <circle cx="1085" cy="50" r="170" fill="#2563eb" opacity="0.14"/>
+    <circle cx="1115" cy="40" r="105" fill="none" stroke="#38bdf8" stroke-opacity="0.28" stroke-width="2"/>
+    <circle cx="1115" cy="40" r="70" fill="none" stroke="#2dd4bf" stroke-opacity="0.25" stroke-width="2"/>
+    <circle cx="95" cy="330" r="150" fill="#8b5cf6" opacity="0.11"/>
+
+    <path d="M0 307 C220 270 395 352 600 307 C808 262 967 312 1200 258 L1200 360 L0 360 Z"
+          fill="#0ea5e9" opacity="0.07"/>
+    <path d="M0 326 C250 292 390 364 612 326 C834 288 1015 330 1200 292"
+          fill="none" stroke="url(#accent)" stroke-opacity="0.5" stroke-width="2"/>
+
+    <g transform="translate(76,68)">
+      <rect x="0" y="0" width="92" height="92" rx="22" fill="url(#chip)" stroke="#38bdf8" stroke-opacity="0.75"/>
+      <path d="M31 28 L16 46 L31 64" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M61 28 L76 46 L61 64" fill="none" stroke="#2dd4bf" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M52 23 L40 69" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <text x="196" y="96" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif"
+          font-size="17" font-weight="700" letter-spacing="4">DEVELOPER · DESIGNER · CREATOR</text>
+
+    <text x="196" y="157" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif"
+          font-size="52" font-weight="800" letter-spacing="1">SAMI AMIR RIZWAN</text>
+
+    <rect x="196" y="178" width="600" height="4" rx="2" fill="url(#accent)"/>
+
+    <text x="196" y="220" fill="#dbeafe" font-family="Arial, Helvetica, sans-serif"
+          font-size="24" font-weight="700">WORDPRESS &amp; FULL-STACK DEVELOPER</text>
+
+    <text x="196" y="252" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif"
+          font-size="18">Building fast, human-centered digital experiences.</text>
+
+    <g transform="translate(196,280)">
+      <rect x="0" y="0" width="108" height="34" rx="17" fill="url(#chip)" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <text x="54" y="22" text-anchor="middle" fill="#bae6fd" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">UI / UX</text>
+
+      <rect x="120" y="0" width="90" height="34" rx="17" fill="url(#chip)" stroke="#2dd4bf" stroke-opacity="0.45"/>
+      <text x="165" y="22" text-anchor="middle" fill="#99f6e4" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">SEO</text>
+
+      <rect x="222" y="0" width="146" height="34" rx="17" fill="url(#chip)" stroke="#a78bfa" stroke-opacity="0.45"/>
+      <text x="295" y="22" text-anchor="middle" fill="#ddd6fe" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">VIDEO EDITING</text>
+    </g>
+
+    <g transform="translate(892,180)">
+      <text x="0" y="0" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">BASED IN</text>
+      <text x="0" y="34" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800">KARACHI</text>
+      <text x="0" y="61" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="16">PAKISTAN</text>
+      <circle cx="4" cy="94" r="4" fill="#22c55e"/>
+      <text x="18" y="100" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">REMOTE READY</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#334155" stroke-width="2"/>
+</svg>
